@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SocialBoat/static/css/main.e7cf962d.css",
+    "main.js": "/SocialBoat/static/js/main.5702adc6.js",
+    "static/media/profile.svg": "/SocialBoat/static/media/profile.c7fa3a76987f69ba01cc4bc66d5123f2.svg",
+    "static/media/boat.svg": "/SocialBoat/static/media/boat.ff48c608fe0f852985e656122f48daed.svg",
+    "index.html": "/SocialBoat/index.html",
+    "main.e7cf962d.css.map": "/SocialBoat/static/css/main.e7cf962d.css.map",
+    "main.5702adc6.js.map": "/SocialBoat/static/js/main.5702adc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7cf962d.css",
+    "static/js/main.5702adc6.js"
+  ]
+}
