@@ -1,0 +1,49 @@
+.card {
+  backface-visibility: hidden;
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 57vh;
+  margin: 10px;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  width: 18vw;
+  z-index: 1;
+
+  .img {
+    border-bottom: 1px solid #eeeeee;
+    height: 50%;
+  }
+
+  .info {
+    height: 50%;
+
+    .icon:hover {
+      color: #f53803;
+    }
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    height: 45vh;
+    width: 36vw;
+    margin-left: 3vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    height: 45vh;
+    width: 51vw;
+  }
+}

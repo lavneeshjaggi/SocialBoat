@@ -1,0 +1,21 @@
+.card-list {
+  display: grid;
+  grid-template-columns: 21vw 21vw 21vw 21vw;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .card-list {
+    grid-template-columns: 21vw 21vw;
+    justify-content: space-around;
+    margin-left: -21vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-list {
+    grid-template-columns: 21vw;
+    justify-content: center;
+    margin-left: -21vw;
+  }
+}
